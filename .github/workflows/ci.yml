@@ -22,7 +22,8 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: heinrichreimer/github-changelog-generator-action@v2.1.1
+      - name: Generate changelog
+        uses: heinrichreimer/action-github-changelog-generator@v2.2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          output: CHANGELOG.md
+
