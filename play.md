@@ -6,3 +6,4 @@ this sentence will show up in the v0.2 release
 
 something new to check changelog creation
 
+will the CHANGELOG.md be created
